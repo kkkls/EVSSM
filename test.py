@@ -114,7 +114,7 @@ if __name__ == '__main__':
     parser.add_argument('--data_dir', type=str, default='/data0/konglingshun/dataset/Test/GoPro/')
 
     # Test
-    parser.add_argument('--test_model', type=str, default=r'/data0/konglingshun/Test_code_CVPR_2025/EVSSM_model/weight/net_g_297000.pth')
+    parser.add_argument('--test_model', type=str, default=r'/data0/konglingshun/Test_code_CVPR_2025/EVSSM_model/weight/net_g_GoPro.pth')
     parser.add_argument('--save_image', type=bool, default=True, choices=[True, False])
 
     args = parser.parse_args()
