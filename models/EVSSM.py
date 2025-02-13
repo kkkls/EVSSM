@@ -489,29 +489,3 @@ class EVSSM(nn.Module):
 
         return out_dec_level1
 
-#
-##
-###
-# from torchvision.models import resnet50
-# from fvcore.nn import FlopCountAnalysis, parameter_count_table
-# from thop import clever_format
-# from thop import profile
-#
-#
-# model = fftformer().cuda()
-# device = torch.device("cuda")
-## 创建输入网络的tensor
-# tensor = (torch.rand((1, 3, 256, 256),device=device),)
-#
-# input = torch.randn((1, 3, 256, 256),device=device)
-# flops, params = profile(model, inputs=(input, ))
-# print(flops/1e9,params/1e6)
-## 创建resnet50网络
-#
-#
-## 分析FLOPs
-# flops = FlopCountAnalysis(model, tensor)
-# print("FLOPs: ", flops.total())
-#
-## 分析parameters
-# print(parameter_count_table(model))
