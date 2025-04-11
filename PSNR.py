@@ -21,5 +21,3 @@ for img in os.listdir(gt_path):
 
 print(psnrs/len(os.listdir(gt_path)),ssims/len(os.listdir(gt_path)))
 
-#baseline_34.2114_0.969416
-#mamba_34.1902_0.969412
