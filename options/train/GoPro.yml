@@ -1,4 +1,4 @@
-name: EVSSM_dwconv_7
+name: EVSSM
 model_type: ImageRestorationModel
 scale: 1
 num_gpu: 4
@@ -36,7 +36,7 @@ datasets:
 
 
 network_g:
-  type: fftformer
+  type: EVSSM
   inp_channels: 3
   out_channels: 3
   dim: 48
