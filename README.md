@@ -1,4 +1,5 @@
 # Efficient Visual State Space Model for Image Deblurring
+Paper: https://openaccess.thecvf.com/content/CVPR2025/papers/Kong_Efficient_Visual_State_Space_Model_for_Image_Deblurring_CVPR_2025_paper.pdf
 ## Dependencies
 conda env create -f environment.yml
 
